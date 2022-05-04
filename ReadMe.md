@@ -2,7 +2,9 @@
 
 ## Foundations of Machine Learning Course Project (NYU Spring 2022).
 
-selfSup_AA.ipynb contains the final notebook implementation of quantized WideResNet32 with natural supervision. 
+selfSup_AA.ipynb contains the final notebook implementation of quantized WideResNet32 with natural supervision. Make sure the paths to all the files in the args is correct. TestAdaAccuracy is the robust accuracy which can be seen in the notebook to be 61.17%. You may ignore other variables which are printed as 0 (since they weren't reinitialized after reading from the stored perturbed images and are not used in the code except for presenting clean accuracies/robust accuracy which can be seen in the other previous cells where the perturbed images are stored.). 
+
+
 
 CIFAR folder contains the code to train/test quantized WideResNet32 Network.
 
