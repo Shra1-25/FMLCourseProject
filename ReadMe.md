@@ -15,4 +15,4 @@ ii) ckpt folder contains the base models trained using PGD-7 adversarial trainin
 iii) ssl_model_130.pth is the SSL model from Mao et al. (2021). 
 
 
-##### Make sure the paths to all the files in the args is correct. TestAdaAccuracy is the robust accuracy which can be seen in the notebook to be 61.17%. You may ignore other variables which are printed as 0 in the output of second last cell (since they weren't reinitialized after reading from the stored perturbed images and are not used in the code except for presenting clean accuracies/robust accuracy which can be seen in the other previous cells where the perturbed images are stored.). 
+##### Note: Make sure the paths to all the files in the args is correct. TestAdaAccuracy is the robust accuracy which can be seen in the notebook to be 61.17%. You may ignore other variables which are printed as 0 in the output of second last cell (since they weren't reinitialized after reading from the stored perturbed images and are not used in the code except for presenting clean accuracies/robust accuracy which can be seen in the other previous cells where the perturbed images are stored.). 
